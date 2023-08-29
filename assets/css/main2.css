@@ -1,0 +1,1282 @@
+.body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+/* ========== header ============ */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-header {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.list-item-header {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-menu {
+    display: block !important;
+    display: flex !important;
+}
+
+#about-us {
+    margin-bottom: 9px;
+    margin-top: 8px;
+}
+
+#phone {
+    align-items: center;
+    gap: 13px;
+}
+
+#phone .icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #3538ED;
+}
+
+#phone .text {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#spp {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#spp .icon {
+    /* display: flex; */
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #37D27A;
+}
+
+#spp .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#location .icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #FFBF47;
+}
+
+#location .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login {
+    padding: 11px 47px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* end wp-header */
+
+
+nav li {
+    margin-left: 22px;
+}
+
+#footer {
+    background: #143258;
+    flex-shrink: 0;
+    padding: 80px 0 30px;
+    border-bottom: 1px solid #FFFFFF4D;
+}
+
+.container-footer {
+    max-width: 1285px;
+    margin: 0 auto;
+}
+
+.list_icon {
+    padding: 0;
+}
+
+.list_icon i {
+    padding: 9px;
+    border: 1px solid #0D6EFD;
+    border-radius: 50%;
+}
+
+#footer .box_quick_link ul {
+    padding-left: 0;
+}
+
+#footer .box_quick_link ul li {
+    margin-top: 15px;
+}
+
+#footer .box_quick_link ul a {
+    text-decoration: none;
+}
+
+#footer .list_icon a {
+    color: #FFF;
+    margin-right: 10px;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer li a {
+    color: #FFF;
+}
+
+.box_quick_link {
+    margin-left: 5rem;
+}
+
+.box_newsletter {
+    margin: 0 10px;
+}
+
+.add_email input {
+    outline: none;
+    width: 100%;
+    padding: 10px 68px 10px 15px;
+    background: transparent;
+    border: 1px solid #6B788E;
+    border-radius: 800px;
+    color: #fff;
+    z-index: 100;
+}
+
+.add_email input:focus {
+    outline: none;
+}
+
+.add_email button {
+    background: #FFBF47;
+    outline: none;
+    border: none;
+    border-radius: 800px;
+    padding: 5px 23px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3px;
+    cursor: pointer !important;
+    z-index: 10000;
+}
+
+.add_email button svg {
+    width: 24px;
+    height: 24px;
+}
+
+.add_email input:placeholder-shown {
+    color: #fff;
+}
+
+#phone_footer .icon i {
+    background: #3538ED;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+
+#mail_footer .icon i {
+    padding: 8px;
+    border-radius: 50%;
+    background: #37D27A;
+}
+
+#footer_add_email {
+    background: none;
+    border-radius: 30%;
+}
+
+#copyright {
+    background: #143258;
+    padding: 30px 0;
+}
+
+.container-copy-right {
+    max-width: 1285px;
+    margin: 0 auto;
+}
+
+.right-copy-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-copy-right a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ============ Login =========== */
+
+html,
+body {
+    height: 117%;
+    margin: 0;
+    padding: 0;
+}
+
+#body-img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('http://localhost/home_page-main/assets/images/image4.png');
+    /* Đường dẫn đến ảnh */
+}
+
+.img-k {
+    opacity: 0;
+}
+
+#warpper-login {
+    max-width: 1512px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#warpper-login img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+#warpper-login .wp-form {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    position: absolute;
+    width: 800px;
+    height: 879px;
+    background-color: #FFFFFF;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+}
+
+#warpper-login .wp-form .row div.reg {
+    justify-content: end;
+    position: relative;
+}
+
+#warpper-login .wp-form .row .reg a.btn {
+    font-weight: 500;
+}
+
+#warpper-login .wp-form .row .reg a.tk {
+    margin: auto 5px;
+    color: #334461;
+}
+
+#warpper-login .wp-form .container-form {
+    width: 560px;
+    height: 479px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#warpper-login .wp-form .container-form form {
+    width: 100%;
+}
+
+#warpper-login .wp-form .container-form form input,
+#warpper-login .wp-form .container-form form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 30px;
+}
+
+#warpper-login .wp-form .container-form form input {
+    border-radius: 25px;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 1px 13px;
+    border: 1px solid #C0C0C0;
+    background-color: #F9F9FE;
+}
+
+#warpper-login .wp-form .container-form form label {
+    text-align: left;
+}
+
+#warpper-login .wp-form .container-form form label.account {
+    color: #143258;
+    font-weight: 500;
+    opacity: 80%;
+}
+
+#warpper-login .wp-form .container-form form label.l-in {
+    color: #243756;
+    font-weight: 500;
+}
+
+button.d-flex,
+a.btn {
+    border-radius: 25px;
+}
+
+#warpper-login .wp-form .container-form .row button.d-flex {
+    background-color: #FFFFFF;
+    border: 1px solid #0000FF;
+}
+
+#warpper-login .wp-form .container-form .row a.Forget {
+    color: #3538ED;
+    font-weight: 500;
+}
+
+#warpper-login .wp-form .container-form .row button.d-flex a.cl {
+    color: #3538ED;
+    font-weight: 500;
+}
+
+#warpper-login .wp-form .container-form button.login {
+    border-radius: 25px;
+    text-align: left;
+}
+
+
+
+/* ============ Sing Up Mentor =========== */
+#warpper-register {
+    position: relative;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+#warpper-register img {
+    max-width: 100%;
+    height: auto;
+}
+
+#warpper-register .wp-form {
+    position: absolute;
+    width: 800px;
+    height: 879px;
+    background-color: #FFFFFF;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+#warpper-register .wp-form .row div.reg {
+    justify-content: end;
+    position: relative;
+}
+
+#warpper-register .reg a.btn {
+    font-weight: 500;
+}
+
+.reg a.tk {
+    margin: auto 5px;
+    color: #334461;
+}
+
+#warpper-register .wp-form .container-form {
+    width: 560px;
+    height: 719px;
+    /* background: #f0f0f0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#warpper-register .wp-form .container-form form {
+    width: 100%;
+}
+
+#warpper-register .wp-form .container-form form input,
+#warpper-register .wp-form .container-form form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 30px;
+}
+
+#warpper-register .wp-form .container-form form input {
+    border-radius: 25px;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 1px 13px;
+    border: 1px solid #C0C0C0;
+    background-color: #F9F9FE;
+}
+
+#warpper-register .wp-form .container-form form label {
+    text-align: left;
+}
+
+#warpper-register .wp-form .container-form form label.l-in {
+    color: #243756;
+    font-weight: 500;
+}
+
+#warpper-register .wp-form .row a.btn {
+    border-radius: 25px;
+}
+
+#warpper-register .wp-form .container-form form button {
+    border-radius: 25px;
+}
+
+/* ============ Sing Up Mentee =========== */
+#warpper-sing-up {
+    position: relative;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+#warpper-sing-up img {
+    max-width: 100%;
+    height: auto;
+}
+
+#warpper-sing-up .wp-form {
+    position: absolute;
+    width: 800px;
+    height: 879px;
+    background-color: #FFFFFF;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+}
+
+#warpper-sing-up .wp-form .row div.reg {
+    justify-content: end;
+    position: relative;
+}
+
+#warpper-sing-up .reg a.btn {
+    font-weight: 500;
+}
+
+.reg a.tk {
+    margin: auto 5px;
+    color: #334461;
+}
+
+#warpper-sing-up .wp-form .container-form {
+    width: 560px;
+    height: 470px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#warpper-sing-up .wp-form .container-form form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#warpper-sing-up .wp-form .container-form form input,
+#warpper-sing-up .wp-form .container-form form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 30px;
+}
+
+#warpper-sing-up .wp-form .container-form form input {
+    border-radius: 25px;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 1px 13px;
+    border: 1px solid #C0C0C0;
+    background-color: #F9F9FE;
+}
+
+#warpper-sing-up .wp-form .container-form form label {
+    text-align: left;
+}
+
+#warpper-sing-up .wp-form .container-form form label.l-in {
+    color: #243756;
+    font-weight: 500;
+}
+
+#warpper-sing-up .wp-form .row a.btn {
+    border-radius: 25px;
+}
+
+#warpper-sing-up .wp-form .container-form form button {
+    border-radius: 25px;
+}
+
+#warpper-sing-up .wp-form .container-form form a {
+    color: #575656;
+}
+
+#warpper-sing-up .wp-form .container-form form .col-4 {
+    position: relative;
+}
+
+#warpper-sing-up .wp-form .container-form form .col-4 i {
+    position: absolute;
+    width: 9px;
+    top: 15px;
+    right: 36px;
+    color: #5E6187;
+}
+
+/* ============ Sing Up Mentor /Email verification =========== */
+#warpper-mentor {
+    position: relative;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
+#warpper-mentor img {
+    max-width: 100%;
+    height: auto;
+}
+
+#warpper-mentor .wp-form {
+    position: absolute;
+    width: 800px;
+    height: 879px;
+    background-color: #FFFFFF;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+}
+
+#warpper-mentor .wp-form .row div.reg {
+    justify-content: end;
+    position: relative;
+}
+
+#warpper-mentor .wp-form .container .reg a.btn {
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+#warpper-mentor .wp-form .container .reg a.tk {
+    margin: auto 5px;
+    color: #334461;
+}
+
+#warpper-mentor .wp-form .container {
+    width: 619px;
+    height: 503px;
+    /* background: #f0f0f0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* ============ Sing Up Mentee /Email verification =========== */
+#warpper-mentee {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1512px;
+}
+
+#warpper-mentee img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#warpper-mentee .wp-form {
+    position: absolute;
+    width: 800px;
+    height: 879px;
+    background-color: #FFFFFF;
+    top: 50px;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+}
+
+#warpper-mentee .wp-form .row div.reg {
+    justify-content: end;
+    position: relative;
+}
+
+#warpper-mentee .wp-form .container .reg a.btn {
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+#warpper-mentee .wp-form .container .reg a.tk {
+    margin: auto 5px;
+    color: #334461;
+}
+
+#warpper-mentee .wp-form .container {
+    width: 466px;
+    height: 455px;
+    /* background: #f0f0f0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* ========= Home Page ======== */
+#content-home {
+    width: 100%;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
+#content-home .cw {
+    width: 1512px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+#content-home .container1 {
+    background-color: #F9F9FE;
+    position: relative;
+}
+
+#content-home .container2 {
+    background-color: #ffff;
+    position: relative;
+}
+
+#content-home .container3 {
+    background-color: #F9F9FE;
+    position: relative;
+}
+
+#content-home .container4 {
+    background-color: #ffff;
+}
+
+#content-home .container1 .box1 {
+    width: 1135px;
+    height: 500px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#content-home .container1 .box1 .go {
+    position: relative;
+}
+
+#content-home .container1 .box1 .go i {
+    position: absolute;
+    left: 4px;
+    top: 93px;
+    font-size: 32px;
+    color: #3538ED;
+}
+
+#content-home .container1 .box1 a.btn-light {
+    margin-top: 90px;
+    background-color: #ECECFD;
+}
+
+#content-home .container1 .box1 .time {
+    position: absolute;
+    bottom: 0;
+}
+
+#content-home .container1 .box1 .time .items img {
+    border-radius: 100%;
+    margin-right: -25px;
+}
+
+#content-home .container1 .box1 .des {
+    width: 415px;
+}
+
+#content-home .container1 .box1 form {
+    background-color: #FFFFFF;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 87px;
+    z-index: 1;
+    width: 900px;
+}
+
+#content-home .container1 .box1 form div {
+    position: relative;
+}
+
+#content-home .container1 .box1 form i {
+    position: absolute;
+    left: 20px;
+    top: 35%;
+}
+
+#content-home .container1 .box1 form button {
+    background-color: #F9F9FE;
+    outline: none;
+    border: none;
+}
+
+#content-home .container1 .box1 form select {
+    border-radius: 25px;
+    background-color: #F9F9FE;
+}
+
+#content-home .container1 .box1 form button i.fa-search {
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #3538ED;
+    padding: 10px 15px;
+    position: absolute;
+    top: 1px;
+    left: 11px;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+#content-home .container1 .box1 img.hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* -- end box 1 --- */
+
+#content-home .container2 .box2 {
+    width: 1135px;
+    height: 508px;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
+
+#content-home .container2 .box2 .des {
+    width: 585px;
+    max-height: 260px;
+    /* background-color: #3538ED; */
+    margin-top: 124px;
+}
+
+#content-home .container2 .box2 .des .go {
+    position: relative;
+}
+
+#content-home .container2 .box2 .des .go i {
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    font-size: 32px;
+    color: #3538ED;
+}
+
+#content-home .container2 .box2 .des a.btn-light {
+    margin-top: 11px;
+    background-color: #ECECFD;
+    color: #2628A6;
+    font-weight: bold;
+}
+
+#content-home .container2 .box2 img {
+    box-shadow: -20px 20px 0px #143258;
+    border-radius: 10px;
+}
+
+/* -- end box 2 ----- */
+#content-home .container34 {
+    background-color: #F9F9FE;
+    position: relative;
+}
+
+#content-home .container34 .box34 {
+    width: 1119px;
+    height: 690px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#content-home .container34 .box34 .go {
+    position: relative;
+    position: absolute;
+    left: 42%;
+}
+
+#content-home .container34 .box34 .go i {
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    font-size: 32px;
+    color: #3538ED;
+}
+
+#content-home .container34 .box34 a.btn-light {
+    margin-top: 11px;
+    background-color: #ECECFD;
+    color: #2628A6;
+    font-weight: 600;
+}
+
+#content-home .container5 {
+    width: 1512px;
+    height: 1223px;
+    background-color: #F9F9FE;
+    position: relative;
+    margin: 0 auto;
+}
+
+#content-home .container5 .box5 {
+    width: 1050px;
+    height: 1083px;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#content-home .container5 .box5 .row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#content-home .container5 .box5 .row div button {
+    border-radius: 25px;
+    transition: all .3s;
+}
+
+#content-home .container5 .box5 .row div button :hover {
+    color: #ECECFD;
+}
+
+#content-home .container5 .box5 .row h5 {
+    color: #3538ED;
+    margin: 0;
+    padding: 2px 9px;
+}
+
+#content-home .container5 .box5 .row small {
+    color: #000000;
+}
+
+#content-home .container5 .box5 .row .item-box i {
+    color: #DBFF00;
+}
+
+#content-home .container5 .box5 .row .item-box {
+    background-color: #FFFFFF;
+    padding: 0 5px 10px 5px;
+}
+
+#content-home .container5 .box5 .go {
+    position: relative;
+    position: absolute;
+    left: -3%;
+}
+
+#content-home .container5 .box5 .go i {
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    font-size: 32px;
+    color: #3538ED;
+}
+
+#content-home .container5 .box5 a.btn-light {
+    margin-top: 11px;
+    background-color: #ECECFD;
+    color: #2628A6;
+    font-weight: bold;
+}
+
+#content-home .container6 {
+    width: 1512px;
+    height: 1226px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#content-home .container6 .box6 {
+    width: 1250px;
+    min-height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #DBFF00; */
+}
+
+#content-home .container6 .box6 .row .go {
+    position: relative;
+}
+
+#content-home .container6 .box6 .row .go i {
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    font-size: 32px;
+    color: #3538ED;
+}
+
+#content-home .container6 .box6 .row a.btn-light {
+    background-color: #ECECFD;
+    color: #2628A6;
+    font-weight: bold;
+}
+
+#content-home .container6 .box6 .row .icon i {
+    font-size: 32px;
+    background: none;
+    /* border: 1px solid #3538ED; */
+    color: #6c6d89;
+    margin-top: 50%;
+}
+
+#content-home .container6 .box6 .row .wk {
+    width: 610px;
+    height: 327px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+#content-home .container6 .box6 .row .wk {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#content-home .container6 .box6 .row .wk .wk1 {
+    background-color: #F9F9FE;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+#content-home .container6 .box6 .row .wk .wk1 i,
+#content-home .container6 .box6 .row i {
+    color: #FFBF47;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+#content-home .container6 .box6 .row form {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#content-home .container6 .box6 .row form input {
+    width: 610px;
+    height: 52px;
+    border-radius: 25px;
+    padding: 2px 15px;
+    background-color: #F9F9FE;
+    border: none;
+    outline: none;
+    border: 1px solid #E0E0E1
+}
+
+#content-home .container6 .box6 .row form label {
+    font-weight: 600;
+}
+
+#content-home .container6 .box6 .row form textarea {
+    width: 100%;
+    border-radius: 25px;
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    border: 1px solid #E0E0E1;
+}
+
+.star i.yellow {
+    color: #FFBF47;
+}
+
+.star i.grey {
+    color: #E8E8E8;
+}
+
+.evaluate-star i {
+    font-size: 27px;
+}
+
+.evaluate-star i.yellow {
+    color: #FFBF47;
+}
+
+.evaluate-star i.grey {
+    color: #E8E8E8;
+}
+
+@media screen and (max-width: 1600px) {
+    .contact-content iframe {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+
+    .container-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container-header {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .rd-month-label {
+        left: -66px;
+    }
+
+    .box_quick_link {
+        margin-left: 0 !important;
+    }
+
+    .list-item-header {
+        display: none !important;
+    }
+
+    .right-header {
+        justify-content: flex-end;
+    }
+
+    .right-bottom-header {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .right-bottom-header {
+        justify-content: center;
+    }
+
+    .container-header {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contact-content .row {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-content iframe {
+        max-width: 700px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+
+    .contact-content .contact-info form {
+        max-width: 600px;
+    }
+
+    .container-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box_quick_link {
+        margin-left: 0 !important;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact-content .row {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .contact-content iframe {
+        width: 480px;
+        margin-bottom: 20px;
+    }
+
+
+    .info-person-search-list .location {
+        margin-top: 20px;
+    }
+
+    .info-person-search-list .location-search-list {
+        margin-top: 20px;
+    }
+
+    .contact-content .contact-info form {
+        max-width: 470px;
+    }
+
+    .responsive-copyright {
+        flex-direction: column;
+    }
+
+    #footer {
+        padding: 0;
+    }
+
+    #main-menu {
+        margin-left: 20px;
+    }
+
+    .container-header {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-header {
+        padding: 0 20px;
+    }
+}
+
+/* HEADER BO SUNG */
+#header {
+    padding: 9px 0px;
+}
+
+.icon-header, .notify, .info-user {
+    padding: 10px 14px;
+    background: #3538ED0D;
+    border-radius: 800px;
+}
+
+.borderSpacing {
+    border: 1px solid #626F87;
+    transform: rotate(90deg);
+    padding: 0px 7px;
+}
+
+.have-notify {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    top: 9px;
+    right: 9px;
+    background: #3538ED;
+}
+
+.image-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.user-hover {
+    top: 54px;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px #00000036;
+    width: 188px;
+}
+
+.user-hover {
+    display: none;
+}
+
+.user-hover .name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1E1E2C;
+}
+
+.user-hover .country {
+    font-size: 14px;
+    color: #5E6187;
+}
+
+.user-hover .borderDash {
+    margin: 15px 0px;
+}
+
+.image-user-header {
+    cursor: pointer;
+}
+
+.info-user:hover .user-hover {
+    display: block;
+    transition: all .2s ease;
+}
+
+.image-avatar-hover {
+    width: 53px;
+    height: 53px;
+}
+
+i.icon-hover-user {
+    font-size: 24px;
+}
+
+span.name-of-icon-hover-user {
+    font-weight: 500;
+    color: #143258;
+    font-size: 14px;
+}
